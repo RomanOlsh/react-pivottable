@@ -214,7 +214,7 @@ function makeRenderer(opts = {}) {
                             : 1
                         }
                       >
-                        {txt}
+                        {((typeof txt === 'boolean') ? txt.toString() : txt)}
                       </th>
                     );
                   })}
