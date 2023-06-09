@@ -321,3 +321,9 @@ table.pvtTable tbody tr td {
 .pvtRendererArea {
     padding: 5px;
 }
+
+.selectedCell {
+    background-color: black !important;
+    opacity: 0.8 !important;
+    color: white !important;
+}
